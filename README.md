@@ -44,7 +44,7 @@ pip install requrements.txt
 ```
 Step 4.Then, download pre-generated pose and Reid checkpoint file from
 [here](https://drive.google.com/drive/folders/1oZPz4z-y-9Oi-X08dnHDZ2fBfBG4f8vB?usp=sharing). 
-Please place the downloaded weights in the `models` folder.
+Please place the downloaded weights in the `models` folder.At the same time, we provide whole datasets [here](https://drive.google.com/drive/folders/1SwJ-Y1BlPVDIQr3P707zwvbG4eF8edK-?usp=sharing) for training/prediction/validation/Reproducing our work.
 
 *NOTE:* Our pre-trained zebrafish behavior recognition pose model, 
 which is trained by the Zebrash tracking data set proposed in this paper. The Reid re-identification 
