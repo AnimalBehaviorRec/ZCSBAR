@@ -43,7 +43,7 @@ Step 3.In the command line terminal, switch to this virtual environment. Enter t
 pip install requrements.txt
 ```
 Step 4.Then, download pre-generated pose and Reid checkpoint file from
-[here](https://drive.google.com/drive/folders/1oZPz4z-y-9Oi-X08dnHDZ2fBfBG4f8vB?usp=sharing). 
+[here](https://drive.google.com/drive/folders/1zJ2N2e-DryHP-MZM04brynQudWqgr-Ph?usp=sharing). 
 Please place the downloaded weights in the `models` folder.At the same time, we provide whole datasets [here](https://drive.google.com/drive/folders/1SwJ-Y1BlPVDIQr3P707zwvbG4eF8edK-?usp=sharing) for training/prediction/validation/Reproducing our work.
 
 *NOTE:* Our pre-trained zebrafish behavior recognition pose model, 
