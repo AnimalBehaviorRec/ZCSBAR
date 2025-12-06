@@ -1,4 +1,4 @@
-# ZCSBAT
+# ZCSBAR
 
 ## Introduction
 
@@ -6,7 +6,7 @@ This repository contains code for *Zebrafish Courtship-related Social Behavior A
 We provide an offline data augmentation method that is suitable for cases with missing data annotations and improves recognition accuracy under multi-object overlapping occlusion.
 We support network training with different annotation formats, utilizing the effective [yolov8-pose](https://docs.ultralytics.com/) detection model. For more information, please refer to the [arXiv preprint](https://arxiv.org/abs/2305.09972).
 
-![image](1min.gif)
+![image](assests/1min.gif)
 We provide an effective online tracking method for closed containers, supporting tracking results in MOT format (for tracking performance validation), as well as .npy or .json output formats (for future behavior recognition or temporal localization tasks).
 Currently, we have open-sourced a demo that includes zebrafish tracking tests, where the Reid mode is specifically designed for identifying male and female zebrafish. Using Reid identification ensures tracking for up to 10 minutes, provided that the number of identified animals is 2. The online tracking method supports multiple animals. If you require longer identity tracking, please ensure optimal external factors such as lighting and water quality.
 
@@ -30,12 +30,12 @@ Additionally, feature generation requires Pytorch (>= 2.1).
 ## Installation
 Step 1.Clone the repository:
 ```
-git clone https://github.com/shuzhan/ZCSBAT.git
+git clone https://github.com/AnimalBehaviorRec/ZCSBAR.git
 ```
 Step 2.Create a new virtual environment.
 
 ```
-conda create -n ZCSBAT python=3.8.19
+conda create -n ZCSBAR python=3.8.19
 ```
 Step 3.In the command line terminal, switch to this virtual environment. Enter the main directory of the current folder through the cd command.
 
@@ -43,7 +43,7 @@ Step 3.In the command line terminal, switch to this virtual environment. Enter t
 pip install requrements.txt
 ```
 Step 4.Then, download pre-generated pose and Reid checkpoint file from
-[here](https://drive.google.com/drive/folders/16O9u-7Wt1zebxYDLn3XYZrAiKEgyarqo?usp=drive_link ).
+[here](https://drive.google.com/drive/folders/1oZPz4z-y-9Oi-X08dnHDZ2fBfBG4f8vB?usp=sharing). 
 Please place the downloaded weights in the `models` folder.
 
 *NOTE:* Our pre-trained zebrafish behavior recognition pose model, 
